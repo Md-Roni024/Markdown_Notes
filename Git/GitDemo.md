@@ -1,0 +1,56 @@
+- What is git?
+    - Git is a tool for version controls,keep track of changes,colaboration on project.
+- What is Github?
+    - Github is a service,it host the source code.
+
+- Git Common Command:
+    - <span style="color:#1445a6">git init</span> 
+        - Initialize a local Git repository
+    - <span style="color:#1445a6">git clone</span>
+        - Create a local copy of a remote    repository
+    - <span style="color:#1445a6">git status</span>
+        - Check Status<img src="status.png">
+    - <span style="color:#1445a6">git add</span>
+        - Add a file to stagging area
+    - <span style="color:#1445a6">git commit</span>
+        - Commit changes to repository
+    - <h2>Branching & Merging</h2>
+    - <span style="color:#1445a6">git branch</span>
+        - List branches of all branch
+    - <span style="color:#1445a6">git branch [ branch name]</span>
+        - Create a new branch
+    - <span style="color:#1445a6">git branch -d [branch name]</span>
+        - Delete a branch
+    - <span style="color:#1445a6">git push origin --delete [branch name]</span>
+        - Delete a remote branch
+    - <span style="color:#1445a6">git checkout[branch name]</span>
+        - Switch to a branch
+    - <span style="color:#1445a6">git checkout -b [branch name]</span>
+        - Create a new branch and switch to it
+    - <span style="color:#1445a6">git checkout -</span>
+        - Switch to branch last checkout
+    - <span style="color:#1445a6">git merge [branch name]</span>
+        - Merge a branch into the active branch
+    - <span style="color:#1445a6">git merge [source branch] [target branch]</span>
+        - Merge a branch into a target branch
+    - <h2>Sharing & Updating Projects</h2>
+    - <span style="color:#1445a6">git push origin [branch name]</span>
+         - Push a branch to your remote repository
+    - <span style="color:#1445a6">git push -u origin [branch name]</span>
+        - Push changes to remote repository
+    - <span style="color:#1445a6">git push origin --delete [branch name]</span>
+        - Delete a remote branch
+    - <span style="color:#1445a6">git pull</span>
+        - Update local repository to the newest commit
+    - <span style="color:#1445a6">git pull origin [branch name]</span>
+        - Pull changes from remote repository
+    - <span style="color:#1445a6">git remote add origin https://github.com/Md-Roni024/Hello_2024.git</span>
+        - Add a remote repository
+    - <h2>Inspection & Comparison</h2>
+    - <span style="color:#1445a6">git log</span>
+        - View Changes
+    - <span style="color:#1445a6">git log --oneline</span> 
+        - View Chnage Briefly
+    - <span style="color:#1445a6">git diff [source branch] [target branch]</span> 
+        - Preview changes before merging
+

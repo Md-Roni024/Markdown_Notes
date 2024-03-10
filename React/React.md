@@ -1,0 +1,5 @@
+- React Version Incompatible error for :npx create-react-app my-app
+    - Simply uninstall previous version by 
+    - npx create-react-app my-app
+    - Then reinstall by : npm install
+    - Now everything fine.
